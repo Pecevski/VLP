@@ -1,11 +1,11 @@
 {
     "Academies": {
 
-        "Web development": [{
+        "Web development": {
             "First Semester": ["HTML", "CSS", "JavaScript"],
             "Second Semester": ["C#", "ASP.Net", "MySQL"],
             "Third Semester": ["MEAN", "MERN", "AngularJS&TypeScript"]
-        }],
+        },
 
         "Web Design": ["Graphic Designer", "Web Designer", "Game Designer"],
 
