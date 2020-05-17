@@ -1,14 +1,19 @@
 {
-    "Academies": {
-
-        "Web development": {
-            "First Semester": ["HTML", "CSS", "JavaScript"],
-            "Second Semester": ["C#", "ASP.Net", "MySQL"],
-            "Third Semester": ["MEAN", "MERN", "AngularJS&TypeScript"]
-        },
-
-        "Web Design": ["Graphic Designer", "Web Designer", "Game Designer"],
-
-        "Software Testing": ["Manual Testing", "Automated Testing"]
-    }
+    "Web development": [{
+        "First Semester": [{
+            "HTML": ["Basic", "Advanced"],
+            "CSS": ["Basic", "Advanced"],
+            "JavaScript": ["Basic", "Advanced"]
+        }],
+        "Second Semester": [{
+            "C#": ["Basic", "Advanced"],
+            "ASP.Net": "Basic",
+            "MySQL": "Basic"
+        }],
+        "Third Semester": [{
+            "MEAN": "Optional",
+            "MERN": "Optional",
+            "AngularJS&TypeScript": "Optional"
+        }]
+    }]
 }
