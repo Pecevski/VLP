@@ -1,18 +1,543 @@
 {
-    "Academies": [{
+    "academies": [{
+            "title": "ACADEMY FOR PROGRAMMING",
+            "programs": [{
+                "title": "Web Developer",
+                "locations": ["Skopje", "Ohrid", "Nish"],
+                "overview": "This curriculum is focused on the latest web technologies combined with traditional computer science concepts. Having in mind that a great web developer means not only being fluent with the latest frameworks and programming languages, but also having an evolved intuition for writing code that is efficient, secure and maintainable, the study methodology has an ideal balance between these crucial components. At the end of this 3 semesters study program you will develop an equivalent skill set and knowledge as an entry level web developer for the exciting and in-demand software development industry.",
+                "courses": [{
+                        "title": "Basic Programming Principles and Methodologies",
+                        "semestar": 1
+                    },
+                    {
+                        "title": "OOP Programming with C#",
+                        "semestar": 2
+                    },
+                    {
+                        "title": "Elective Subjects",
+                        "semestar": 3
+                    }
+                ],
+                "competencies": ["Working on front-end using latest modern web technologies such as: HTML5, CSS3, JavaScript",
+                    "Developing front-end applications using popular web development frameworks such as AngularJS",
+                    "SPA-focused technologies with the corresponding tools and environment",
+                    "Develop modern and responsive websites and web applications",
+                    "Working with latest version of Visual Studio IDE and Visual Studio Code",
+                    "Working with ASP.NET Web Development Frameworks",
+                    "Working with MVC (Model View Controller) and other MV* known patterns (MVVM, MVP)",
+                    "Deep understanding of OOP concepts and OOP programming languages, primarily working with C#",
+                    "Understanding proper usage of relevant development patterns, principles and paradigms",
+                    "Working as a full-stack developer covering front-end, back-end and databases development",
+                    "Working with relational and non-relational Database Management Systems (Microsoft SQL, MongoDB)",
+                    "Understanding the concepts of cloud computing (Azure)",
+                    "Developing Cloud-ready, scalable and performant applications",
+                    "Deep understanding of IaaS, PaaS and SaaS principles of the cloud computing paradigm"
+                ],
+                "jobOpportunities": ["Web Developer", "Software Developer", "Front-End Web Developer", "Full-Stack Web Developer", "Technical trainer", "Technical consultant"],
+                "trainers": "Trainers are experienced and passionate software engineers who love to teach.",
+                "timeline": {
+                    "duration": {
+                        "monts": 12,
+                        "semestars": 3
+                    },
+                    "classes": 480,
+                    "semesters": [{
+                        "I semester": [{
+                            "startDate": "October 15",
+                            "endDate": "February 15"
+                        }],
+                        "II semester": [{
+                            "startDate": "February 15",
+                            "endDate": "July 15"
+                        }],
+                        "III semester": [{
+                            "startDate": "August 15",
+                            "endDate": "October 15"
+                        }]
+                    }],
+                    "lectures": "twice a week from 5:30 pm until 9:00 pm and every 2nd Saturday (9:00 am – 12:30 pm or 12:30 pm – 16:00 pm)",
+                    "tuitionFeesPayment": ""
+                },
+                "additionalData": [{
+                        "title": "HANDS-ON LAB ACTIVITIES",
+                        "items": "Included in most of the course classes"
+                    },
+                    {
+                        "title": "PROJECTS",
+                        "items": ["PROJECT 1 (Individual/Team)", "FINAL PROJECT (Individual/Team)"]
+                    },
+                    {
+                        "title": "EXAMS",
+                        "items": ["1st SEMESTER EXAM", "2nd SEMESTER EXAM", "FINAL EXAM"]
+                    }
+                ]
+            }]
+        },
+        {
+            "title": "ACADEMY FOR COMPUTER NETWORKS",
+            "programs": [{
+                "title": "CloudOps Network Engineer, 3 Semesters",
+                "overview": "Cloud Computing has transformed the IT industry by opening the possibility for infinite or at least highly elastic scalability in the delivery of enterprise applications and software. The main focus of this curriculum are offerrings provided by Microsoft Azure and Office 365, along with an entrance to the world of networking with Cisco core networking technologies. During the studies we’ll learn about the techniques for architecting, deploying, and maintaining applications, including how to use Cloud as the infrastructure for existing and new services. A lot of practical activities will prepare you to achieve hands-on and real-world skills essential for the evolving IT market.",
+                "courses": [{
+                        "title": "CCNA1: Introduction to Networks",
+                        "semestar": 1
+                    },
+                    {
+                        "title": "CCNA2: Routing and Switching Essentials",
+                        "semestar": 2
+                    },
+                    {
+                        "title": "CCNA3: Scaling Networks",
+                        "semestar": 3
+                    }
+                ],
+                "competencies": ["Monitors and evaluates network performance, reliability and scalability; troubleshoots and resolves network and security problems",
+                    "Analyzes network requirements, resolve conflicts between users, recommends favorable networking approaches, and expands network systems design",
+                    "Designs, implements and supports multiple types of data networks",
+                    "Defines alternative scenarios for network applications; explains network inter-connectivity",
+                    "Designs optimal routes between any two points on a network",
+                    "Compares and contrasts major features of alternative data network technologies",
+                    "Evaluates the effectiveness of network topology, physical and logical networks, links and interfaces",
+                    "Configure initial settings on a network device",
+                    "Configure Ethernet switch ports and Implement VLANs.",
+                    "Implement static routing, DHCP, NAT and ACLs",
+                    "Configure and troubleshoot routers and switches",
+                    "Resolve common issues with OSPF, EIGRP, and STP in both IPv4 and IPv6 networks",
+                    "Prepare and install Nano Server, a Server Core installation, and plan a server upgrade and migration strategy.",
+                    "Implement the various storage options and solutions",
+                    "Install, configure and manage Microsoft Hyper-V, monitor, and maintain virtual machine installations",
+                    "Implement high availability and disaster recovery in Windows Server 2016",
+                    "Configure a Network Load Balancing (NLB) cluster, and plan for an NLB implementation",
+                    "Implement IPv4, IPv6, DNS, IPAM, VPN and Direct Access",
+                    "Install and configure various AD services using graphical tools and Windows PowerShell, establish business continuity for AD services",
+                    "Implement and manage Group Policy Objects (GPOs)",
+                    "Deploy and manage certificates, plan, configure, and manage identity and access",
+                    "Secure Windows Server, Protect credentials and implement privileged access workstations.",
+                    "Limit administrator rights with Just Enough Administration, Manage privileged access, mitigate malware and threats.",
+                    "Analyze activity with advanced auditing and log analytics, deploy and configure Advanced Threat Analytics and Microsoft Operations Management Suite.",
+                    "Configure Guarded Fabric virtual machines (VMs), use the Security Compliance Toolkit (SCT) and containers to improve security.",
+                    "Plan and protect data, optimize and secure file services and secure network traffic with firewalls and encryption",
+                    "Leverage Azure Portal, Cloud Shell, Azure PowerShell, CLI, Resource Manager, and Resource Manager Templates",
+                    "Use intersite connectivity features including VNet Peering, VNet-to-VNet connections, Site-to-Site Connections, and ExpressRoute",
+                    "Work with Azure Active Directory (AD), Azure AD Connect, and Azure AD Join, and Azure AD Identity Protection",
+                    "Plan, and create Azure Virtual Machines",
+                    "Managing Azure Subscriptions and Resources",
+                    "Implementing and Managing Storage",
+                    "Configuring and Managing Virtual Networks",
+                    "Managing Identities using Azure Active Directory",
+                    "Evaluating and Performing Server Migration to Azure",
+                    "Implementing and Managing Application Services",
+                    "Address Durability of Data and Caching",
+                    "Measure Throughput and Structure of Data Access",
+                    "Use shell commands to create an App Service Web App",
+                    "Understand the Azure Container Registry",
+                    "Use Azure Container instances",
+                    "Implement Role-aBsed Access Control (RBAC) authorization.",
+                    "Implement secure data for end-to-end encryption.",
+                    "Implement secure data for implementing SSL and TLS communications.",
+                    "Use Azure Key Vault to manage cryptographic keys.",
+                    "How to configure a message-based integration architecture",
+                    "Determine when to use advanced features of Azure AD such as Managed Service Identity, MFA and Privileged Identity Management.",
+                    "Secure application secrets using Key Vault.",
+                    "Secure application data using SQL Database and Azure Storage features.",
+                    "Monitors and evaluates network performance, reliability and scalability; troubleshoots and resolves network and security problems",
+                    "Analyzes network requirements, resolve conflicts between users, recommends favorable networking approaches, and expands network systems design",
+                    "Designs, implements and supports multiple types of data networks",
+                    "Defines alternative scenarios for network applications; explains network inter-connectivity",
+                    "Designs optimal routes between any two points on a network",
+                    "Compares and contrasts major features of alternative data network technologies",
+                    "Evaluates the effectiveness of network topology, physical and logical networks, links and interfaces",
+                    "Configure initial settings on a network device",
+                    "Configure Ethernet switch ports and Implement VLANs.",
+                    "Implement static routing, DHCP, NAT and ACLs",
+                    "Configure and troubleshoot routers and switches",
+                    "Resolve common issues with OSPF, EIGRP, and STP in both IPv4 and IPv6 networks",
+                    "Prepare and install Nano Server, a Server Core installation, and plan a server upgrade and migration strategy.",
+                    "Implement the various storage options and solutions",
+                    "Install, configure and manage Microsoft Hyper-V, monitor, and maintain virtual machine installations",
+                    "Implement high availability and disaster recovery in Windows Server 2016",
+                    "Configure a Network Load Balancing (NLB) cluster, and plan for an NLB implementation",
+                    "Implement IPv4, IPv6, DNS, IPAM, VPN and Direct Access",
+                    "Install and configure various AD services using graphical tools and Windows PowerShell, establish business continuity for AD services",
+                    "Implement and manage Group Policy Objects (GPOs)",
+                    "Deploy and manage certificates, plan, configure, and manage identity and access",
+                    "Secure Windows Server, Protect credentials and implement privileged access workstations.",
+                    "Limit administrator rights with Just Enough Administration, Manage privileged access, mitigate malware and threats.",
+                    "Analyze activity with advanced auditing and log analytics, deploy and configure Advanced Threat Analytics and Microsoft Operations Management Suite.",
+                    "Configure Guarded Fabric virtual machines (VMs), use the Security Compliance Toolkit (SCT) and containers to improve security.",
+                    "Plan and protect data, optimize and secure file services and secure network traffic with firewalls and encryption."
+                ],
+                "jobOpportunities": ["CloudOps Engineer", "Cloud Engineer", "Cloud Administrator", "Cloud Support Specialist", "Cloud Infrastructure Architect", "Network technician", "Network administrator", "Network Engineer", "Network support", "Server administration", "Network designer", "System Administrator", "System Engineer", "Desktop Support Technician", "Desktop Support Engineer"],
+                "trainers": "Networking is the backbone of IT industry and our trainers are keeping the highest standards in teaching. They are holding highest certificates in their field. With experience of 10+ years, they honor modern and traditional learning, combined with mentorship and working in highly interactive environment. You will love your learning, as we love our teaching!",
+                "timeline": {
+                    "duration": {
+                        "monts": 14,
+                        "semestars": 3
+                    },
+                    "classes": 830,
+                    "semesters": [{
+                        "I semester": [{
+                            "startDate": "October 15",
+                            "endDate": "December 31"
+                        }],
+                        "II semester": [{
+                            "startDate": "January 09",
+                            "endDate": "July 01"
+                        }],
+                        "III semester": [{
+                            "startDate": "September 01",
+                            "endDate": "November 30"
+                        }]
+                    }],
+                    "lectures": "Every day (Monday – Friday) from 12:30 pm until 16:00 pm",
+                    "tuitionFeesPayment": ""
+                },
+                "additionalData": [{
+                    "title": "HANDS-ON LAB ACTIVITIES",
+                    "items": ["- IT Essentials Hardware and Software lab(s)",
+                        "– Installing and configuring Windows 10 desktops and devices, customizing Windows 10 operating systems and apps, configuring local and remote network connectivity and storage lab(s)",
+                        "– Building, Connecting and Scaling Networks lab(s)",
+                        "– Routing and Switching lab(s)",
+                        "– Installing, configuring and administering Roles and main Features on all versions of Windows Server 2016/2019 lab(s)",
+                        "– Configuring VNets and Vnet peering, Azure Point-To-Site VPN, Deploying and managing Azure VMs, Implementing web apps, Planning and implementing Azure Storage,  Implementing containers and Azure Container Instance, Implementing Azure Cloud Services, Implementing and managing Azure AD and a AD DS hybrid environment, Implementing Automation",
+                        "– Provisioning and managing Office 365 users and groups, Configuring client connectivity to Office 365, Configuring directory synchronization, Managing Office 365 ProPlus installations, Configuring and managing Exchange Online and email protection, Configuring Skype for Business Online, Configuring SharePoint Online, Configuring Rrights Mmanagement and compliance, Planning and configuring identity federation",
+                        "– Basic breach detection and incident response strategies, Implementing user rights, security options, and group managed service accounts, Limiting administrator privileges, Securing applications with Windows Defender, AppLocker, and Device Guard Rules, Configuring advanced auditing, Deploying ATA, Microsoft Operations Management Suite, and Azure Security Center, Guarded fabric with Admin-trusted attestation and shielded VMs, Implementing Dynamic Access Control, Securing DNS and SMB"
+                    ]
+                }]
+            }]
+        },
+        {
+            "title": "Security Specialist",
+            "overview": "This curriculum focuses on creating Security Specialists who are trained on protecting, detecting and responding to the threats on the network. Security Specialists and Network Administrators are usually familiar with network components, traffic, performance and utilization, network topology, location of each system, security policy, etc. In addition, they will get the fundamental understanding of the true construct of data transfer, network technologies and software technologies, perimeter appliances, secure IDS, VPN and firewall configuration, intricacies of network traffic signature, OS hardening, analysis and vulnerability scanning so that they understand how networks operate. Also, they will learn how to look for weaknesses and vulnerabilities in target systems and use the same knowledge and tools as a malicious hacker, but in a lawful and legitimate manner to assess the security posture of a target system(s).Ranged as a beginner to intermediate level study program, it is well suited for anyone looking to get their foot in the Cyber Security door as well as people that want to hone and advance their skills.With a definite concentration on not only theoretical, but practical scenarios, this curriculum is the ideal starter for anyone that wants to endeavor in the Security Field, and also gain an invaluable insight on how things work in the industry, as well as a good ground for starting the path to pass both C|EH & C|ND.",
+            "courses": [{
+                    "title": "Security Essentials",
+                    "semestar": 1
+                },
+                {
+                    "title": "Security Penetration Testing and Defence",
+                    "semestar": 2
+                }
+            ],
+            "competencies": ["Understand the elements of a network and network design.",
+                "Configure IPv4 and IPv6 addressing.",
+                "Configure switched networks.",
+                "Implement security on a LAN network with ACL and port security.",
+                "Secure Windows Server, protect credentials and implement privileged access workstations.",
+                "Limit administrator rights with Just Enough Administration and manage privileged access.",
+                "Mitigate malware and threats and analyse activity with advanced auditing and log analytics.",
+                "Deploy and configure Advanced Threat Analytics and Microsoft Operations Management Suite.",
+                "Configure Guarded Fabric virtual machines (VMs).",
+                "Use the Security Compliance Toolkit (SCT) and containers to improve security.",
+                "Plan and protect data and optimize and secure file services.",
+                "Secure network traffic with firewalls and encryption and secure network traffic by using DNSSEC and Message Analyser.",
+                "Incident management process, and penetration testing.",
+                "Various types of footprinting, footprinting tools, and countermeasures.",
+                "Network scanning techniques and scanning countermeasures.",
+                "Enumeration techniques and enumeration countermeasures.",
+                "System hacking methodology, steganography, steganalysis attacks, and covering tracks.",
+                "Different types of Trojans, Trojan analysis, and Trojan countermeasures.",
+                "Working of viruses, virus analysis, computer worms, malware analysis procedure, and countermeasures.",
+                "Packet sniffing techniques and how to defend against sniffing.",
+                "Social Engineering techniques, identify theft, and social engineering countermeasures.",
+                "DoS/DDoS attack techniques, botnets, DDoS attack tools, and DoS/DDoS countermeasures.",
+                "Session hijacking techniques and countermeasures.",
+                "Different types of webserver attacks, attack methodology, and countermeasures.",
+                "Different types of web application attacks, web application hacking methodology, and countermeasures.",
+                "SQL injection attacks and injection detection tools.",
+                "Wireless Encryption, wireless hacking methodology, wireless hacking tools, and Wi-Fi security tools.",
+                "Mobile platform attack vector, android vulnerabilities, mobile security guidelines, and tools.",
+                "Firewall, IDS and honeypot evasion techniques, evasion tools, and countermeasures.",
+                "Various cloud computing concepts, threats, attacks, and security techniques and tools.",
+                "Different types of cryptography ciphers, Public Key Infrastructure (PKI), cryptography attacks, and cryptanalysis tools.",
+                "Various types of penetration testing, security audit, vulnerability assessment, and penetration testing roadmap.",
+                "Perform vulnerability analysis to identify security loopholes in the target organization’s network, communication infrastructure, and end systems.",
+                "Different threats to IoT platforms and learn how to defend IoT devices securely.",
+                "Describe specialized data classifications on Azure",
+                "Identify Azure data protection mechanisms",
+                "Implement Azure data encryption methods",
+                "Secure Internet protocols and how to implement them on Azure",
+                "Describe Azure security services and features"
+            ],
+            "jobOpportunities": ["IT Security Analyst", "IT Network Security Engineer", "IT Network Security Administrator", "IT Security Specialist", "IT Security Officer", "Penetration Tester", "Security Analyst", "CloudSecOps", "Cloud Security Engineer", "Cloud Security Specialist"],
+            "trainers": "MCTs and CEIs, highly skilled Security Engineers who are already working in the Cyber Security field on real world projects as their main job.",
+            "timeline": {
+                "duration": {
+                    "monts": 6,
+                    "semestars": 2
+                },
+                "classes": 250,
+                "semesters": [{
+                    "I semester": [{
+                        "startDate": "October 15",
+                        "endDate": "January 15"
+                    }],
+                    "II semester": [{
+                        "startDate": "January 15",
+                        "endDate": "March 30"
+                    }]
+                }],
+                "lectures": "Every day (Monday – Friday) from 12:30 pm until 16:00 pm",
+                "tuitionFeesPayment": ""
+            }
+        },
+        {
+            "title": "ACADEMY FOR DESIGN",
+            "programs": [{
+                    "title": "Graphic Designer",
+                    "overview": "Academy for Graphic Design combines technical software skills and creative thinking to produce a competitive portfolio. Students will be lead through the nuanced skill-development process to achieve excellence in Logo Design, Typography, Packaging, Printing, Web Design, User Experience, User Interface, Branding and Advertising. Instructors with industry experience will challenge the students to rich their personal creative potential and prepare them for a graphic design career.",
+                    "courses": [{
+                            "title": "Design and Art Theory",
+                            "semestar": 1
+                        },
+                        {
+                            "title": "Logo and Design, User Interface/User Experience",
+                            "semestar": 2
+                        }
+                    ],
+                    "competencies": ["Creating design solution",
+                        "Communicating ideas using color",
+                        "Creating digital graphics and illustrations",
+                        "Managing project and time constraints",
+                        "Optimizing readability of typography.",
+                        "Working on layout and art working pages ready for print",
+                        "Ensuring technical and design quality of a graphic design solution",
+                        "Designing attractive web pages"
+                    ],
+                    "jobOpportunities": ["Creative/Art Director", "Logo Designer", "Brand Identity Designer", "Photo Editing/ Photoshop Artist", "Layout Artist"],
+                    "timeline": {
+                        "duration": {
+                            "monts": 9,
+                            "semestars": 2
+                        },
+                        "classes": 540,
+                        "semesters": [{
+                            "I semester": [{
+                                "startDate": "October 15",
+                                "endDate": "January 15"
+                            }],
+                            "II semester": [{
+                                "startDate": "January 15",
+                                "endDate": "June 30"
+                            }]
+                        }],
+                        "lectures": "Every day (Monday – Friday) from 8:30 am until 12:00 pm",
+                        "tuitionFeesPayment": ""
+                    }
+                },
+                {
+                    "title": "Web Designer",
+                    "overview": "Academy for Web Design develops a professional process for building a Web site, from conception to launch, according to the latest and most modern principles and technologies. Students will learn how to plan and design compelling and interactive websites, how to change and make an impact with HTML and CSS, PHP and jQuery. They will also learn technical software programs and accessibility standards, color, typography, and composition and will create their own dynamic portfolio.",
+                    "courses": [{
+                            "title": "Principles of Design, Introduction to Programming",
+                            "semestar": 1
+                        },
+                        {
+                            "title": "Content Management Systems with WordPress, User Interface/User Experience",
+                            "semestar": 2
+                        }
+                    ],
+                    "competencies": ["Creating fully functional website",
+                        "Preparing design plan, presenting site structure and how different parts link together",
+                        "Deciding which branding, text, colors and backgrounds to use",
+                        "Laying out pages and positioning buttons, links and pictures using design software",
+                        "Adding multimedia features like sound, animation and video",
+                        "Factoring in security and download speed of the design pages",
+                        "Meeting clients to discuss what they want their site to do and who will use it"
+                    ],
+                    "jobOpportunities": ["Front End Web Developer", "Back End Web Developer", "UX/UI Web Designer"],
+                    "timeline": {
+                        "duration": {
+                            "monts": 9,
+                            "semestars": 2
+                        },
+                        "classes": 540,
+                        "semesters": [{
+                            "I semester": [{
+                                "startDate": "October 15",
+                                "endDate": "January 15"
+                            }],
+                            "II semester": [{
+                                "startDate": "January 15",
+                                "endDate": "June 30"
+                            }]
+                        }],
+                        "lectures": "Every day (Monday – Friday) from 5:30 pm until 9:00 pm",
+                        "tuitionFeesPayment": ""
+                    }
+                },
+                {
+                    "title": "Game Designer",
+                    "overview": "Academy for Game Design combines technical knowledge and artistic skill to produce a portfolio in line with game design industry. Students will learn to design characters and its environments, image rendering, character development and animation. During the game project, Game Design students create innovative and original games.",
+                    "courses": [{
+                            "title": "Game Design Theory",
+                            "semestar": 1
+                        },
+                        {
+                            "title": "Introduction to Game Industry",
+                            "semestar": 2
+                        }
+                    ],
+                    "competencies": ["Drawing a character and its environment",
+                        "Designing characters",
+                        "Designing environments",
+                        "Producing models of props and characters",
+                        "Representing movements in three dimensions",
+                        "Creating UV",
+                        "Texture creation",
+                        "Rigging the characters",
+                        "Animating characters",
+                        "How to develop an environment and design a level with Unity 5/UE4",
+                        "Understanding the basics of gameplay",
+                        "Determining the overall visual style",
+                        "Setting the basic story skeleton"
+                    ],
+                    "jobOpportunities": ["Game Programmer", "Game Designer", "Game Technical Artist"],
+                    "timeline": {
+                        "duration": {
+                            "monts": 9,
+                            "semestars": 2
+                        },
+                        "classes": 540,
+                        "semesters": [{
+                            "I semester": [{
+                                "startDate": "October 15",
+                                "endDate": "January 15"
+                            }],
+                            "II semester": [{
+                                "startDate": "January 15",
+                                "endDate": "June 30"
+                            }]
+                        }],
+                        "lectures": "Every day (Monday – Friday) from 12:30 am until 16:00 pm",
+                        "tuitionFeesPayment": ""
+                    }
+                }
+            ]
+        }, {
+            "title": "ACADEMY FOR SOFTWARE TESTING",
+            "programs": [{
+                "title": "Software Tester",
+                "overview": "This curriculum is focused on the latest agile testing principles combined with traditional software testing concepts. In addition candidates are getting IT knowledge related to Agile, Scrum and Kanban, SQL, Operating systems and Diagrams such as UML, BPMN and Mind Maps which is crucial for a Software Tester. Modern or Agile software tester is not only a person who executes tests but Agile tester is a person who is capable to develop API, WEB UI and Mobile automated tests and in the same time to speed up the testing and prevent defects.At the end of this study program you will develop an equivalent skill set and experience as an entry level Software Tester for the exciting and in-demand software industry.",
+                "courses": [{
+                        "title": "Generic IT Skills, Manual Testing",
+                        "semestar": 1
+                    },
+                    {
+                        "title": "Automated Testing, ISTQB",
+                        "semestar": 2
+                    }
+                ],
+                "competencies": ["Writhing complex SQL queries for testing the Databases and Performing better End to End Tests",
+                    "Designing diagrams in engineering acceptable language",
+                    "Designing tests with very high percentage of coverage",
+                    "Reporting Defects in clear and effective form",
+                    "Applying Testing Related to changes using most appropriate concepts",
+                    "Basic Understanding of REST API testing using Postman",
+                    "Basic Understanding of OOP and Unit Testing frameworks such as TestNG"
+                ],
+                "jobOpportunities": ["Software Testing Engineer", "Software Testing Analyst", "Automates Testing Engineer", "Software Engineer", "Technical Consultant"],
+                "trainers": "Experienced and passionate Software Testing Experts who love to teach proven in this task. Holders of associate Software Testing Certificates. Some of the subjects have both trainers and assistants, whose job is to easy the learning process, introduce some learning and software testing techniques and share their experience in entering the software testing world. Mentor: Gjore Zaharchev is an Agile Evangelist and Heuristic Testing fighter with more than 12 years of experience in Automated and Manual Software Testing in various domains. He recognizes testers as people with various problem-solving skills and an engineering mindset and believes that Software Testers are more than mere numbers to clients. Currently he is working at Seavus, with an official title of a Quality Assurance Coordinator responsible for the Software Testing Team. And team of four assistants which will work with the group on a better and more effective way.",
+                "timeline": {
+                    "duration": {
+                        "monts": 6,
+                        "semestars": 2
+                    },
+                    "classes": 210,
+                    "semesters": [{
+                        "I semester": [{
+                            "startDate": "October 15",
+                            "endDate": "January 15"
+                        }],
+                        "II semester": [{
+                            "startDate": "January 15",
+                            "endDate": "March 30"
+                        }]
+                    }],
+                    "lectures": "Twice a week from 5:30 pm until 9:00 pm",
+                    "tuitionFeesPayment": ""
+                },
+                "additionalData": [{
+                    "title": "HANDS-ON LAB ACTIVITIES",
+                    "items": ["3 Individual Projects",
+                        "7 Team Projects",
+                        "ISTQB FL (CTFL) exam",
+                        "ISTQB Agile Extension (CATE) exam",
+                        "Final Project"
+                    ]
+                }]
+            }]
+        },
+        {
+            "title": "ITHINK ACADEMY",
+            "programs": [{
+                    "title": "BASIC",
+                    "courses": [{
+                            "title": ["GET THE BASICS", "LET’S DESIGN", "MYSTERIES OF THE INTERNET (INTERNET TECHNOLOGIES )"],
+                            "semestar": 1
+                        },
+                        {
+                            "title": ["FUN CODE (PROGRAMMING)", "I LOVE ROBOTS (BASIC ROBOTICS)"],
+                            "semestar": 2
+                        }
+                    ],
+                    "timeline": {
+                        "startDate": "30.09.2019",
+                        "endDate": "12.06.2020",
+                        "1st semester": "30.09 – 27.12.2019",
+                        "2nd semester": "21.01 – 12.06.2020",
+                        "Winter holiday break": "01 – 21.01.2020",
+                        "2 times a week, 2 classes.": "17.45-19.30 /19.30-21.00",
+                        "classes": 130
 
-        "Web development": [{
-            "First Semester": ["HTML", "CSS", "JavaScript"],
-            "Second Semester": ["C#", "ASP.Net", "MySQL"],
-            "Third Semester": ["MEAN", "MERN", "AngularJS&TypeScript"]
-        }],
-
-        "Computer Networks": ["Security Specialist", "CloudOps Network Engineer"],
-
-        "Web Design": ["Graphic Designer", "Web Designer", "Game Designer"],
-
-        "Software Testing": ["Manual Testing", "Automated Testing"],
-
-        "IThink": ["Basic", "Advanced", "Upper"]
-    }]
+                    }
+                },
+                {
+                    "title": "ADVANCED",
+                    "description": "This is a second year of the IThink academy, and the goal is to present the children with a knowledge of real web pages design and the procedures to create and maintain it.  The objectives are to visualize, graphically create the elements of the page and continue the process until the page is viable.",
+                    "MODULES": [{
+                            "title": "Let’s do applied Design",
+                            "semestar": 1
+                        },
+                        {
+                            "title": "Mysteries of the Internet resolved",
+                            "semestar": 2
+                        }
+                    ],
+                    "timeline": {
+                        "startDate": "30.09.2019",
+                        "endDate": "12.06.2020",
+                        "1st semester": "30.09 – 27.12.2019",
+                        "2nd semester": "21.01 – 12.06.2020",
+                        "Winter holiday break": "01 – 21.01.2020",
+                        "2 times a week, 2 classes.": "17.45-19.30 /19.30-21.00",
+                        "classes": 130
+                    }
+                },
+                {
+                    "title": "UPPER",
+                    "description": "This upper module named Introduction to Game Design is a basic course in understanding the core principles of game design using the Unity engine. The course will cover the process of making a game, from concept to 3D asset creation, level design, lighting, animating and using scripts. Another key feature is resource management, which means also learning how to use the Unity asset store as a valuable resource when developing a game with a small team. The final product of the course is a game that the entire class has made together during the entire year. This is intended to encourage teamwork and communication.",
+                    "courses": [{
+                            "title": ["Introduction to all game elements", "Introduction to Autodesk Maya"],
+                            "semestar": 1
+                        },
+                        {
+                            "title": "Introduction to Unity",
+                            "semestar": 2
+                        }
+                    ],
+                    "target audience": "Anyone with basic knowledge of basic algebra ( plus, minus, multiplication and division), navigating a computer (windows). Knowledge of programming is NOT a requirement.",
+                    "final product": "Each student will have implemented his/her own design of a pinball game.",
+                    "timeline": {
+                        "startDate": "30.09.2019",
+                        "endDate": "12.06.2020",
+                        "1st semester": "30.09 – 27.12.2019",
+                        "2nd semester": "21.01 – 12.06.2020",
+                        "Winter holiday break": "01 – 21.01.2020",
+                        "2 times a week, 2 classes.": "17.45-19.30 /19.30-21.00",
+                        "classes": 130
+                    }
+                }
+            ]
+        }
+    ]
 }
