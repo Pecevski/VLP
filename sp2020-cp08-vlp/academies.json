@@ -37,7 +37,7 @@
                 "trainers": "Trainers are experienced and passionate software engineers who love to teach.",
                 "timeline": {
                     "duration": {
-                        "monts": 12,
+                        "months": 12,
                         "semestars": 3
                     },
                     "classes": 480,
@@ -171,7 +171,7 @@
                 "trainers": "Networking is the backbone of IT industry and our trainers are keeping the highest standards in teaching. They are holding highest certificates in their field. With experience of 10+ years, they honor modern and traditional learning, combined with mentorship and working in highly interactive environment. You will love your learning, as we love our teaching!",
                 "timeline": {
                     "duration": {
-                        "monts": 14,
+                        "months": 14,
                         "semestars": 3
                     },
                     "classes": 830,
@@ -262,7 +262,7 @@
             "trainers": "MCTs and CEIs, highly skilled Security Engineers who are already working in the Cyber Security field on real world projects as their main job.",
             "timeline": {
                 "duration": {
-                    "monts": 6,
+                    "months": 6,
                     "semestars": 2
                 },
                 "classes": 250,
@@ -306,7 +306,7 @@
                     "jobOpportunities": ["Creative/Art Director", "Logo Designer", "Brand Identity Designer", "Photo Editing/ Photoshop Artist", "Layout Artist"],
                     "timeline": {
                         "duration": {
-                            "monts": 9,
+                            "months": 9,
                             "semestars": 2
                         },
                         "classes": 540,
@@ -347,7 +347,7 @@
                     "jobOpportunities": ["Front End Web Developer", "Back End Web Developer", "UX/UI Web Designer"],
                     "timeline": {
                         "duration": {
-                            "monts": 9,
+                            "months": 9,
                             "semestars": 2
                         },
                         "classes": 540,
@@ -394,7 +394,7 @@
                     "jobOpportunities": ["Game Programmer", "Game Designer", "Game Technical Artist"],
                     "timeline": {
                         "duration": {
-                            "monts": 9,
+                            "months": 9,
                             "semestars": 2
                         },
                         "classes": 540,
@@ -439,7 +439,7 @@
                 "trainers": "Experienced and passionate Software Testing Experts who love to teach proven in this task. Holders of associate Software Testing Certificates. Some of the subjects have both trainers and assistants, whose job is to easy the learning process, introduce some learning and software testing techniques and share their experience in entering the software testing world. Mentor: Gjore Zaharchev is an Agile Evangelist and Heuristic Testing fighter with more than 12 years of experience in Automated and Manual Software Testing in various domains. He recognizes testers as people with various problem-solving skills and an engineering mindset and believes that Software Testers are more than mere numbers to clients. Currently he is working at Seavus, with an official title of a Quality Assurance Coordinator responsible for the Software Testing Team. And team of four assistants which will work with the group on a better and more effective way.",
                 "timeline": {
                     "duration": {
-                        "monts": 6,
+                        "months": 6,
                         "semestars": 2
                     },
                     "classes": 210,
